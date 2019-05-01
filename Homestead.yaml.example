@@ -1,0 +1,30 @@
+---
+ip: "192.168.10.10"
+memory: 2048
+cpus: 1
+provider: virtualbox
+
+authorize: ~/.ssh/id_rsa.pub
+
+keys:
+    - ~/.ssh/id_rsa
+
+folders:
+    - map: ~/code
+      to: /home/vagrant/code
+
+sites:
+    - map: drupal-homestead.local
+      to: /home/vagrant/code/web
+      php: "7.3"
+      type: "apache"
+      xhgui: "true"
+
+databases:
+    - drupal_homestead
+
+
+name: drupal8-homestead
+hostname: drupal8-homestead
+mariadb: true
+mongodb: true
