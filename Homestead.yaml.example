@@ -24,7 +24,7 @@ databases:
     - drupal_homestead
 
 
-name: drupal8-homestead
-hostname: drupal8-homestead
+name: drupal-homestead
+hostname: drupal-homestead.local
 mariadb: true
 mongodb: true
