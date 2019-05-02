@@ -29,7 +29,7 @@
         "zaporylie/composer-drupal-optimizations": "^1.0"
     },
     "require-dev": {
-        "laravel/homestead": "^8.3",
+        "laravel/homestead": "^8.4",
         "webflo/drupal-core-require-dev": "^8.7.0"
     },
     "conflict": {
