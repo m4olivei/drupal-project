@@ -13,6 +13,10 @@
         {
             "type": "composer",
             "url": "https://packages.drupal.org/8"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/m4olivei/homestead.git"
         }
     ],
     "require": {
@@ -29,7 +33,7 @@
         "zaporylie/composer-drupal-optimizations": "^1.0"
     },
     "require-dev": {
-        "laravel/homestead": "^8.4",
+        "laravel/homestead": "v8.4.0-patch1 as v8.4.0",
         "webflo/drupal-core-require-dev": "^8.7.0"
     },
     "conflict": {
