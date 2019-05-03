@@ -22,3 +22,7 @@
 
 # Ignore .env files as they are personal
 /.env
+
+# Ignore local Homestead configuration
+Homestead.yaml
+
