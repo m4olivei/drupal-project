@@ -23,6 +23,9 @@
 # Ignore .env files as they are personal
 /.env
 
-# Ignore local Homestead configuration
-Homestead.yaml
+# Ignore local Homestead configuration and other generated files
+/Homestead.yaml
+/after.sh
+/Vagrantfile
+/aliases
 
